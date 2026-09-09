@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center 66dp area safe zone -->
+    <!-- Shield boundary -->
+    <path
+        android:fillColor="#0D9488"
+        android:pathData="M54,24 L74,32 C74,52 64,68 54,76 C44,68 34,52 34,32 Z" />
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M54,27 L71,34 C71,51 62,65 54,72 C46,65 37,51 37,34 Z" />
+    <!-- Candlestick / chart lines -->
+    <!-- Bar 1: Green bullish -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M43,48h4v12h-4z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#10B981"
+        android:strokeWidth="1.5"
+        android:pathData="M45,44v18" />
+    <!-- Bar 2: Center cyan breakout -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M52,40h4v16h-4z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#06B6D4"
+        android:strokeWidth="1.5"
+        android:pathData="M54,36v24" />
+    <!-- Bar 3: Gold check/guard -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M61,44h4v10h-4z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="1.5"
+        android:pathData="M63,40v17" />
+    <!-- Gatekeeper check accent -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M46,64 L52,69 L64,57" />
+</vector>
